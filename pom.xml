@@ -28,6 +28,9 @@
                     <overrideRootLogLevel>DEBUG</overrideRootLogLevel>
                     <suppressJMeterOutput>false</suppressJMeterOutput>
                     <ignoreResultFailures>true</ignoreResultFailures>
+                     <testFilesIncluded>
+                            <jMeterTestFile>first_test_plan.jmx</jMeterTestFile>                           
+                        </testFilesIncluded>
                       <propertiesJMeter>
                         <jmeter.save.saveservice.thread_counts>true</jmeter.save.saveservice.thread_counts>
                     </propertiesJMeter>
